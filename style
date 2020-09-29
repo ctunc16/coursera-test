@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: brushstroke, fantasy;
+	color: black;
+	text-align: center;
+}
+
+h1{
+	display: block;
+	font-size: 2em;
+	margin: 0.67em 0.67em 0px 0px;
+}
+
+.container{
+	border: none;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+}
+
+section{
+	border: 1px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: 200px;
+	font-family: helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+section{
+	display: block;
+}
+
+div{
+	display: block;
+}
+
+p{
+	padding: 10px;
+	margin: 0;
+}
+
+p{
+	display: block;
+	margin: 1em 0px 1em 0px;
+}
+
+#chicken{
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, sans-sarif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #0000ff;
+}
+
+#Beef{
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, sans-sarif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color: #FF0000;
+}
+
+#Sushi{
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, sans-sarif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #00ff00;
+}
+
+@media(min-width: 992px){
+	.col-lg-4{
+		width: 33.33%;
+	}
+}
+
+@media(min-width: 992px){
+	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+		float: left;
+	}
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+	.col-md-6{
+		width: 50%;
+	}
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+		.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+			float: left;
+		}
+}
+
+@media(max-width: 767px){
+	.col-sm-12{
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+	.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
+		float: left;
+	}
+}
